@@ -65,7 +65,16 @@ To use the full data file:
 * Place `700k-pres.json.data` inside `src/main/resources/`
 * Restart the application — it will load automatically at startup
 
+
+
 ---
+## Testing
+
+To run unit tests for core service logic:
+
+bash ./mvnw test
+
+--- 
 
 ## Tech Stack
 * Java 17
